@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <title>天体行星-新闻动态</title>  
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
+
+<style>
+  /* .news img{
+ 
+    width: 100%;
+  } */
+</style>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div id="daohan">
+          <div id="zhuye"> <a href="index.html">
+            <div id="zhuye3"><a href="index.html">天体行星</a></div>
+          </div>
+          <ul id="right">
+            <li><a href="about.html"> 关于我们 </a></li>
+            <li><a href="news.html"> 新闻 </a></li>
+            <li><a href="index.html"> 首页 </a></li>
+          </ul>
+        </div>
+      </div>
+    <!--新闻内容-->
+    <div id="neirong">
+            <div >
+        
+              <div class="news">
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="">
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="">
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                    <img src="" alt="" >
+                    <div class="caption">
+                      <h6>行星名字</h6>
+                      <p>行星介绍</p>
+                      <span>时间</span>
+                    </div>
+                  </div>
+                </div>
+        
+        
+              </div>
+            </div><div class="clear"></div>
+          </div>
+    <!-- 分页 -->
+    <div id="page">
+    <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li>
+                <a id="shuzi"href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li><a id="shuzi" href="#">1</a></li>
+              <li><a id="shuzi" href="#">2</a></li>
+              <li><a id="shuzi" href="#">3</a></li>
+              <li><a id="shuzi" href="#">4</a></li>
+              <li><a id="shuzi" href="#">5</a></li>
+              <li><a id="shuzi" href="#">6</a></li>
+              <li>
+                <a id="shuzi"href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav></div>
+    <!-- 底部 -->
+    <div id="foot">
+        <div id="footer">
+            <div>
+                <ul>
+                    <li><img src="./img/wz.svg" alt="">
+                        <h6>福州市仓山区特力林</h6>
+                    </li>
+                    <li><a href="1276650627@qq.com"><img src="./img/yj.svg" alt="">
+                            <h6>1276650627@qq.com</h6>
+                        </a></li>
+                    <li><a href="tel:400-400-4000"></a><img src="./img/dh.svg" alt="">
+                        <h6>888-888-8888</h6></a>
+                    </li>
+                    <li id="erweima"><a href="#zhuye"><img src="./img/ewm.svg" alt="">
+                            <h6>天体行星</h6>
+                        </a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div>
+                <p class="xiahuaxian3"></p>
+            </div>
+            <div id="banquan">
+                <p>版权所有@ZLZ</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      axios.get('https://www.fastmock.site/mock/94f343e570ed51af1945ceabda0c1104/_shop-zlz/api/zlz01')
+        .then(function (res) {
+        var a = res.data;
+          console.log(a)
+        
+        $.each(a, function (x, ele) {
+          $('.news .thumbnail').eq(x).find('img').attr('src', ele.imges_src)
+          $('.news .thumbnail').eq(x).find('h6').html("行星名字:"+ele.name)
+          $('.news .thumbnail').eq(x).find('p').html("行星介绍:"+ele.short_description_html)
+          $('.news .thumbnail').eq(x).find('span').html("时间"+ele.date_created)
+          $('.news .thumbnail').eq(x).click(function () {
+          window.location.href = "news-detail.html?" + "id=" + ele.id;
+            })
+        
+            })
+                
+        $('.thumbnail').mouseover(function () {
+          $(this).css('opacity', 0.9);
+           $(this).css('border-color', 'red');
+           $(this).css('cursor', 'pointer');
+        
+                })
+        $('.thumbnail').mouseout(function () {
+          $(this).css('opacity', "");
+          $(this).css('border-color', '')
+                })
+        
+        
+    }).catch(function (res) {
+    console.log('error', res);
+    })
+    $('.pagination li').on('click',function (params) {
+      axios.get('https://www.fastmock.site/mock/94f343e570ed51af1945ceabda0c1104/_shop-zlz/api/zlz01').then((res) =>{
+        console.log(res.data)
+      })
+    })
+ </script>
+
+
+</body>
+
+</html>
